@@ -1,99 +1,84 @@
 @font-face {
-    font-family: 'berylium';
-    src: url('fonts/berylium_bd_it-webfont.eot');
-    src: url('fonts/berylium_bd_it-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/berylium_bd_it-webfont.woff2') format('woff2'),
-         url('fonts/berylium_bd_it-webfont.woff') format('woff'),
-         url('fonts/berylium_bd_it-webfont.ttf') format('truetype'),
-         url('fonts/berylium_bd_it-webfont.svg#beryliumbold_italic') format('svg');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "berylium";
+  src: url("fonts/berylium_bd_it-webfont.eot");
+  src:
+    url("fonts/berylium_bd_it-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/berylium_bd_it-webfont.woff2") format("woff2"),
+    url("fonts/berylium_bd_it-webfont.woff") format("woff"),
+    url("fonts/berylium_bd_it-webfont.ttf") format("truetype"),
+    url("fonts/berylium_bd_it-webfont.svg#beryliumbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic;
 }
-
-
-
 
 @font-face {
-    font-family: 'berylium';
-    src: url('fonts/berylium_rg_it-webfont.eot');
-    src: url('fonts/berylium_rg_it-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/berylium_rg_it-webfont.woff2') format('woff2'),
-         url('fonts/berylium_rg_it-webfont.woff') format('woff'),
-         url('fonts/berylium_rg_it-webfont.ttf') format('truetype'),
-         url('fonts/berylium_rg_it-webfont.svg#beryliumitalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "berylium";
+  src: url("fonts/berylium_rg_it-webfont.eot");
+  src:
+    url("fonts/berylium_rg_it-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/berylium_rg_it-webfont.woff2") format("woff2"),
+    url("fonts/berylium_rg_it-webfont.woff") format("woff"),
+    url("fonts/berylium_rg_it-webfont.ttf") format("truetype"),
+    url("fonts/berylium_rg_it-webfont.svg#beryliumitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
 }
-
-
-
 
 @font-face {
-    font-family: 'berylium';
-    src: url('fonts/berylium_bd-webfont.eot');
-    src: url('fonts/berylium_bd-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/berylium_bd-webfont.woff2') format('woff2'),
-         url('fonts/berylium_bd-webfont.woff') format('woff'),
-         url('fonts/berylium_bd-webfont.ttf') format('truetype'),
-         url('fonts/berylium_bd-webfont.svg#beryliumbold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "berylium";
+  src: url("fonts/berylium_bd-webfont.eot");
+  src:
+    url("fonts/berylium_bd-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/berylium_bd-webfont.woff2") format("woff2"),
+    url("fonts/berylium_bd-webfont.woff") format("woff"),
+    url("fonts/berylium_bd-webfont.ttf") format("truetype"),
+    url("fonts/berylium_bd-webfont.svg#beryliumbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
-
-
-
 
 @font-face {
-    font-family: 'berylium';
-    src: url('fonts/berylium_rg-webfont.eot');
-    src: url('fonts/berylium_rg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/berylium_rg-webfont.woff2') format('woff2'),
-         url('fonts/berylium_rg-webfont.woff') format('woff'),
-         url('fonts/berylium_rg-webfont.ttf') format('truetype'),
-         url('fonts/berylium_rg-webfont.svg#beryliumbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "berylium";
+  src: url("fonts/berylium_rg-webfont.eot");
+  src:
+    url("fonts/berylium_rg-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/berylium_rg-webfont.woff2") format("woff2"),
+    url("fonts/berylium_rg-webfont.woff") format("woff"),
+    url("fonts/berylium_rg-webfont.ttf") format("truetype"),
+    url("fonts/berylium_rg-webfont.svg#beryliumbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
-
 
 @font-face {
-    font-family: 'rockwell condensed';
-    src: url('fonts/rockwell_cond_rg.eot');
-    src: url('fonts/rockwell_cond_rg.eot?#iefix') format('embedded-opentype'),
-         url('fonts/rockwell_cond_rg.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "rockwell condensed";
+  src: url("fonts/rockwell_cond_rg.eot");
+  src:
+    url("fonts/rockwell_cond_rg.eot?#iefix") format("embedded-opentype"),
+    url("fonts/rockwell_cond_rg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
-
 
 @font-face {
-    font-family: 'rockwell condensed';
-    src: url('fonts/rockwell_cond_bd.eot');
-    src: url('fonts/rockwell_cond_bd.eot?#iefix') format('embedded-opentype'),
-         url('fonts/rockwell_cond_bd.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "rockwell condensed";
+  src: url("fonts/rockwell_cond_bd.eot");
+  src:
+    url("fonts/rockwell_cond_bd.eot?#iefix") format("embedded-opentype"),
+    url("fonts/rockwell_cond_bd.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
-
-
-
 
 @font-face {
-    font-family: 'dust west';
-    src: url('fonts/dust_west-webfont.eot');
-    src: url('fonts/dust_west-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dust_west-webfont.woff2') format('woff2'),
-         url('fonts/dust_west-webfont.woff') format('woff'),
-         url('fonts/dust_west-webfont.ttf') format('truetype'),
-         url('fonts/dust_west-webfont.svg#dust_westregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "dust west";
+  src: url("fonts/dust_west-webfont.eot");
+  src:
+    url("fonts/dust_west-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/dust_west-webfont.woff2") format("woff2"),
+    url("fonts/dust_west-webfont.woff") format("woff"),
+    url("fonts/dust_west-webfont.ttf") format("truetype"),
+    url("fonts/dust_west-webfont.svg#dust_westregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
-
-

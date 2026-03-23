@@ -1,28 +1,24 @@
-
-var images = {}
+var images = {};
 
 var app, appView;
 
-$(function() {
-	
-	if (window.location.protocol != "file:") {
-		$.get( "drawCount.txt", function( data ) {
-			$( "#drawCount" ).html( data );
-		});
-	}
-	
-	app = new App("canvas#card", "div#editor");
+$(function () {
+  if (window.location.protocol != "file:") {
+    $.get("drawCount.txt", function (data) {
+      $("#drawCount").html(data);
+    });
+  }
 
-	$('#tipJar h3').click(function() {
-		$("div#tipModal").show();
-	});
-	
-	$('#tipModal #noThanks a').click(function() {
-		$("div#tipModal").fadeOut();
-	});
-	
+  app = new App("canvas#card", "div#editor");
+
+  $("#tipJar h3").click(function () {
+    $("div#tipModal").show();
+  });
+
+  $("#tipModal #noThanks a").click(function () {
+    $("div#tipModal").fadeOut();
+  });
 });
-
 
 /*
 
