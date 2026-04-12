@@ -70,6 +70,10 @@ var Card = Backbone.Model.extend({
         eventAction: "Card Draw",
         eventLabel: "Clicked",
       });
+
+      if (window.umami) {
+        window.umami.track("card-render", { cardType: this.get("cardType") });
+      }
     }
   },
 
